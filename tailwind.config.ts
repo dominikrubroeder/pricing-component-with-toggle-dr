@@ -8,9 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "very-light-grayish-blue": "hsl(240, 78%, 98%)",
+        "light-grayish-blue": "hsl(234, 14%, 74%)",
+        "grayish-blue": "hsl(233, 13%, 49%)",
+        "dark-grayish-blue": "hsl(232, 13%, 33%)",
+        background: "hsl(235, 80%, 98%)",
+      },
       backgroundImage: {
         "gradient-primary":
-          "linear-gradient(135deg, #A2A7F0 -0.05%, #696EDD 100.05%)",
+          "linear-gradient(135deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%))",
       },
     },
   },

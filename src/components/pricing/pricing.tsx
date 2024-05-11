@@ -1,7 +1,7 @@
 import React from "react";
 import PricingCard from "@/components/pricing/pricing-card";
 import { pricingOptions } from "@/components/pricing/data";
-import PricingIntervalToggle from "@/components/pricing/pricing-interval-toggle";
+import PricingToggle from "@/components/pricing/pricing-toggle/pricing-toggle";
 
 export default function Pricing({
   payment,
@@ -15,7 +15,7 @@ export default function Pricing({
       </h1>
 
       <div className="mx-auto text-center">
-        <PricingIntervalToggle />
+        <PricingToggle />
       </div>
 
       <div className="mx-auto grid w-full max-w-screen-xl grid-cols-3 gap-4 px-4">

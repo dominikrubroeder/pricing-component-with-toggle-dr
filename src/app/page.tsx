@@ -7,8 +7,6 @@ export default function Home({
 }) {
   const payment = searchParams.payment;
 
-  console.log(payment);
-
   return (
     <div className="flex min-h-svh items-center justify-center">
       <Pricing payment={payment} />
